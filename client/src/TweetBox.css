@@ -1,0 +1,128 @@
+.TweetBox p{
+    color : black;
+}
+
+.TweetBox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;   
+    width: 100%;
+    
+}
+
+
+.TweetBox .ProfImgTextArea{
+    display: flex;
+    flex-direction: row;
+    padding-left : 20px;
+    padding-top: 20px;
+}
+
+
+
+.TweetBox .ProfImgTextArea .ProfImgTwtBox img{
+    height : 64px;
+    width: 64px;
+    border-radius: 50px;
+}
+
+.TweetBox .ProfImgTextArea #textArea{
+    width: 90vh;
+    font-size: 20px;
+    border-width: 0;
+    padding-left : 10px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    margin-top: 30px ;
+}
+
+#textArea:empty:before {
+    content: attr(data-placeholder);
+    color: grey;
+}
+
+.TweetBox .TweetBoxPuBtn {
+    display: flex;
+    flex-direction: row;
+}
+
+.TweetBox .TweetBoxPuBtn .publishBtnEnabled{
+    background-color: #A3DEFE;
+    border-radius: 5px;
+    width: 60px;
+    height:25px;
+    font-family: 'Lucida Sans';
+    text-transform: inherit ! important;
+}
+
+
+
+.TweetBox .TweetBoxPuBtn .publishBtnDisabled{
+    background-color: white;
+    border-radius: 5px;
+    width: 60px;
+    height:25px;
+    font-family: 'Lucida Sans';  
+}
+
+.TweetBox .TweetBoxPuBtn .publishBtnEnabled:hover{
+    cursor: pointer;
+}
+
+#lifeSavor{
+    display: none;
+}
+
+.TweetBox .DontRender{
+    display: none;
+}
+
+.TweetBox .Pannel{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+    
+}
+
+.TweetBox .Pannel .PannelIcon {
+    color: blue;
+    display: inline-flex;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    margin-right: 20px;
+}
+
+.TweetBox .Pannel .PannelIcon:hover{
+    cursor: pointer;
+    background-color: rgb(236, 253, 255);
+    border-radius: 100%;
+    
+}
+
+.TweetBox .Pannel .PannelIcon img:hover{
+    cursor: pointer;
+    
+    
+}
+
+
+.ImageDescription:not(:hover){
+    position: absolute;
+    visibility: hidden;
+
+}
+
+.ImageDescription:hover{
+    visibility: visible;
+    position: absolute;
+}
+
+
+

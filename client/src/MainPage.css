@@ -1,0 +1,30 @@
+
+.TheePage{
+    background-color: white;
+    background-size: 100vh;
+}
+
+.wall{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.wall .LeftComponent{
+    
+    margin-left: 30px;
+    width: 20%;
+
+}
+
+.wall .CenterComponent{
+    width: 50%;
+    border-right: 2px solid;
+    border-left: 2px solid;
+    border-color: whitesmoke;
+}
+
+.wall .RightComponent{
+    width: 30%;
+   
+}

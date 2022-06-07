@@ -1,0 +1,126 @@
+.alln{
+    display: flex;
+    flex-direction: row;
+}
+
+.alln .NavigationPannelProfil{
+    margin-left: 30px;
+    width : 20%
+}
+
+
+
+.ProfilePage p{
+    margin: 0 !important;
+    color: black;
+}
+
+.alln .ProfilePage{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid ;
+    border-right: 2px solid ;
+    border-left: 2px solid ;
+    border-color: whitesmoke;
+    width : 50%
+   
+    
+}
+
+#UsernameProfile{
+   color: black; 
+   font-weight: bold;
+}
+
+.ProfilePage .ProfileInfos .UserTweets{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.ProfilePage .ProfileInfos .UserTweets .GoToMainPage img{
+    width: 32px;
+    height : 32px;
+}
+
+.ProfilePage .ProfileInfos .UserTweets .GoToMainPage img:hover{
+    cursor: pointer;
+}
+
+.ProfilePage .ProfileInfos .UserTweets .UserProfileInfos {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.ProfilePage .ProfileInfos .UserTweets .UserProfileInfos #NbTweets{
+    color: gray; 
+}
+
+.ProfilePage .ProfileInfos .BackGroundProfileImg{
+    display: flex;
+    flex-direction: column;
+}
+
+.ProfilePage .ProfileInfos .BackGroundProfileImg #BackGImg{
+    width : 100%;
+    height: auto;
+    position: relative;
+    top: 0 px;
+}
+
+.ProfilePage .ProfileInfos .BackGroundProfileImg #ProfileImg{
+    width:128px;
+    height:auto;
+    position: absolute;
+    top:140px;
+}
+
+#UserLink{
+    color: gray;
+}
+.ProfilePage .ProfileInfos .UsernamLink{
+    padding-top: 100px;
+}
+
+.ProfilePage .ProfileInfos .DateOfJoin p {
+    padding-top : 20px;
+    color: grey;
+}
+
+#Foll{
+    padding-top: 20px;
+    color: black;
+}
+
+.alln .RightComponent{
+    width: 30%;
+}
+
+
+
+.ProfilePage .ProfileInfos  .UnFollowBtnDisplay{
+    display: none;   
+}
+
+
+.ProfilePage .ProfileInfos  .FollowBtnDisplay button{
+    width: 80px;
+    height: 30px;
+    margin-top: 5px;
+    font-size: 16px;
+    float: right;
+    border: 0;
+    margin-right: 10px;
+    background-color: var(--twitter-background);
+    border-radius: 10px;
+    border-color: black;
+    border : 1px solid black
+}
+
+.ProfilePage .ProfileInfos  .FollowBtnDisplay button:hover{
+    cursor: pointer;   
+    background-color: rgb(29 ,161, 242);
+}
+

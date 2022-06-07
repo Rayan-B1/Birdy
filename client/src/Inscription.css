@@ -1,0 +1,165 @@
+
+.allIns{
+    background-color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+    
+    
+}
+
+.allIns span{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.allIns input{
+    vertical-align: top;
+    margin: 0;
+}
+
+#InscUserErr{
+    color: red;
+    font-size: 8px;
+}
+
+
+
+.allIns .title{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    color:  #A3DEFE;
+}
+
+::-ms-reveal {
+    display: none !important;
+}
+
+
+
+.allIns .Inscription .user-details{
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 0px;
+    border: 1px solid #ccc;
+    box-shadow: 20px 20px 20px;
+    
+}
+
+.allIns .Inscription .user-details .register-message{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 20px 0px;
+    
+}
+
+.allIns .Inscription .user-details .register-message p{
+    font-size: 30px;
+    font-weight: bolder;
+    color:rgb(0,0,0);
+}
+
+.allIns .Inscription .user-details .register-message-desc{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.allIns .Inscription .user-details .register-message-desc p{
+    font-size: 15px;
+    color:gray;
+}
+
+.allIns .Inscription .user-details .input-box{
+    padding : 10px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.allIns .Inscription .user-details .input-box input{
+    height : 30px;
+    width : 300px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-style: oblique;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    
+}
+
+.allIns .Inscription .user-details .input-box .field_error{
+    border-color: red;
+    background-image: url("warning_img.png");
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.allIns .Inscription .user-details .input-box .field_error img{
+    float: right;
+    
+}
+.Inscription .user-details .input-box input::placeholder{
+    color:grey
+}
+
+.Inscription .user-details .input-box .LabelErr{
+    font-size : 10px;
+    color:red;
+    position: absolute;
+    margin-top : 30px;
+}
+
+.Inscription .user-details .input-box .LabelOk{
+    display: none;
+}
+
+.Inscription .user-details .button{
+    display:flex;
+    justify-content: center;
+    padding: 0px 0px 20px 0px;
+}
+
+.Inscription .user-details .button button{
+    height : 50px;
+    width : 150px;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+    font-family: fantasy;
+    outline: none;
+    background-color: rgb(57, 255, 57);
+    
+}
+
+.Inscription .user-details .button button:hover{
+    color:whitesmoke;
+    cursor: pointer;
+}
+
+.Inscription .user-details .LinkToInscription p{
+    width: 390px;
+    display: flex;
+    justify-content: center;
+    color:black;
+}
+
+.Inscription .user-details .LinkToInscription a{
+    color:var(--twitter-background);
+}
+
+.Inscription .user-details .LinkToInscription a:hover{
+    cursor: pointer;
+    color:blue
+}
+
+/*martin.billon@icloud.com*/

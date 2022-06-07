@@ -1,0 +1,54 @@
+p{
+    color: white;
+}
+
+
+.externeAdd{
+    overflow-y: scroll;
+    overflow: hidden;
+    position: sticky;
+    top : 0;
+}
+
+
+.NavigationPannel p {
+    color: black;
+}
+
+.NavigationPannel nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+   
+    
+}
+
+.NavigationPannel nav ul li{
+    padding-top:10px ;
+}
+
+
+
+.NavigationPannel nav ul li .nameLogo{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.NavigationPannel nav ul li .nameLogo img{
+    height : 32px;
+    width: auto;
+}
+
+.NavigationPannel nav ul li .nameLogo p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+

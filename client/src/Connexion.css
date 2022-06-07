@@ -1,0 +1,148 @@
+.allCon{
+    background-color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+
+.allCon .title{
+    font-size: 60px;
+    
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px 20px 0px;
+    color:  #A3DEFE;
+
+    
+}
+
+.allCon .Connexion{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    flex-direction: column;
+}
+
+.allCon .Connexion .infos-user{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.allCon .Connexion .infos-user .signin-message{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color:rgb(0,0,0);
+}
+
+.allCon .Connexion .infos-user .input-box{
+    padding : 20px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.allCon .Connexion .infos-user .input-box input{
+    height : 30px;
+    width : 300px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-style: oblique;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    
+}
+
+.allCon .Connexion .infos-user  .input-box .field_error{
+    border-color: red;
+    background-image: url("warning_img.png");
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.allCon .Connexion .infos-user  .input-box  .field_error img{
+    float: right;
+    
+}
+
+.allCon .Connexion .infos-user .input-box input::placeholder{
+    color:grey
+}
+
+.allCon .Connexion .infos-user .input-box .LabelErr{
+    font-size : 10px;
+    color:red;
+    position: absolute;
+    margin-top : 30px;
+
+}
+
+.allCon .Connexion .infos-user .input-box .LabelOk{
+    display: none;
+
+}
+
+.allCon .Connexion .infos-user .button{
+    display:flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.allCon .Connexion .infos-user .button button{
+    height : 50px;
+    width : 150px;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+    font-family: fantasy;
+    outline: none;
+    background-color: rgb(57, 255, 57);
+    
+}
+
+.allCon .Connexion .infos-user .button button:hover{
+    color:whitesmoke;
+    cursor: pointer;
+}
+
+.allCon .Connexion  .registerd{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 20px 20px 20px;
+    padding: 10px 0px 10px 0px; 
+    display: flex;
+    align-items: center;
+
+}
+
+.allCon .Connexion  .registerd p{
+    width: 390px;
+    display: flex;
+    justify-content: center;
+    color:black;
+}
+
+.allCon .Connexion  .registerd a{
+    color:var(--twitter-background);
+}
+
+.allCon .Connexion  .registerd a:hover{
+    cursor: pointer;
+    color:blue
+}

@@ -1,0 +1,112 @@
+.StatsField p {
+    margin: 0 !important;
+}
+
+
+.StatsField {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.StatsField .SearchBar{
+    margin-top: 10px;
+    width: 80%;
+}
+
+
+
+.StatsField .SearchBar input{
+    width: 100%;
+    height : 40px;
+    border-radius: 50px;
+    background-color: 	#E1E8ED;
+    padding-left: 50px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    
+
+    
+}
+
+.StatsField .SearchBar .Loupe{
+    position: absolute;
+    margin-top: -38px;
+
+}
+
+.StatsField .SearchBar .Loupe:hover{
+    cursor: pointer;
+}
+
+.StatsField .SearchBar .Croix{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.StatsField .SearchBar .Croix:hover{
+    cursor: pointer;
+}
+
+
+
+.StatsField .Stats{
+    height: 40vh;
+    width: 95%;
+    margin-top: 50px;
+    background-color: grey;
+    border-radius: 5px;
+    background-color: #EFCE4A;
+    margin-bottom: 20px;
+    
+}
+
+.StatsField .Stats img{
+    margin-left: 40%;
+    
+}
+
+.StatsField .Stats .PTitle{
+    margin-left: 37%;
+}
+
+.StatsField .Stats .PTitle p{
+    font-size: bolder;
+    color: black;
+}
+
+
+
+.StatsField .Stats .PStats{
+    margin-top: 30px;
+    font-size: bolder;
+    color: black;
+}
+.StatsField .Stats .PStats .MostTweetedPerson{
+    color: red;
+    font-weight: bolder;
+}
+
+.StatsField .Stats .PStats .MostFollowedPerson{
+    color: red;
+    font-weight: bolder;
+}
+
+.StatsField .Stats .PStats .MostTweetedPerson:hover{
+    cursor: pointer;
+
+}
+
+.StatsField .Stats .PStats .MostFollowedPerson:hover{
+    cursor: pointer;
+
+}
+
+
+.StatsField .Stats .PStats p{
+    font-size: bolder;
+    color: black;
+}

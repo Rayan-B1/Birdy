@@ -1,0 +1,172 @@
+
+.commentField p{ 
+    margin: 0 !important;
+    color: black;
+}
+
+
+
+
+.commentField{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: whitesmoke;
+    width: 100%;
+}
+
+
+
+.commentField .UserAvatar{
+    padding-top: 20px;
+    padding-left : 20px;
+}
+
+.commentField .UserAvatar img{
+    height: 64px;
+    width : 64px; 
+    border-radius:50px;
+}
+/******************************/
+
+
+.commentField .UsernameDateMessageImg{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.commentField .UsernameDateMessageImg .UsernameDate{
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+}
+
+.commentField .UsernameDateMessageImg .UsernameDate #usernameMessage{
+    color: black;
+    font-weight: bolder;
+    
+}
+
+.commentField .UsernameDateMessageImg .UsernameDate #usernameMessage:hover{
+    cursor: pointer;
+    text-decoration: underline solid black;
+}
+
+.commentField .UsernameDateMessageImg .UsernameDate #dateMessage{
+    color: grey;
+    font-weight: bolder;
+    padding-left : 10px;
+}
+
+.commentField .UsernameDateMessageImg .UsernameDate .DeleteModifybtn{
+    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    height: 52px;
+    width : 52px;
+}
+
+.commentField .UsernameDateMessageImg .UsernameDate .DeleteModifybtn:hover{
+    background-color: red;
+
+}
+
+.commentField .UsernameDateMessageImg .UsernameDate .DeleteModifybtn .NoFromDeleteModify{
+    visibility: hidden;
+}
+
+.commentField .UsernameDateMessageImg .UsernameDate .NoDeleteModifybtn{
+    visibility: hidden;
+}
+
+
+
+
+.commentField .UsernameDateMessageImg .UsernameDate .DeleteModifybtn:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+
+
+.commentField .UsernameDateMessageImg .MessageToTweet{
+    padding-top : 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    
+}
+
+.commentField .UsernameDateMessageImg .MessageToTweet p{
+    word-break: break-all;
+}
+.commentField .UsernameDateMessageImg .MessageToTweet .NoCanModifyMessage{
+    visibility: hidden;
+}
+
+.commentField .UsernameDateMessageImg .MessageToTweet .CanModifyMessage{
+    width: 100%;
+    margin-top: 15px; 
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.commentField .UsernameDateMessageImg .MessageToTweet .CanModifyMessage .publishBtnDisabled{
+    margin-right: 20px;
+    background-color: rgb(8, 255, 8);
+}
+
+.commentField .UsernameDateMessageImg .MessageToTweet .CanModifyMessage .publishBtnEnabled{
+    margin-right: 20px;
+    background-color: rgb(8, 255, 8);
+}
+
+.commentField .UsernameDateMessageImg .MessageToTweet .CanModifyMessage .Cancel{
+    margin-right: 20px;
+    background-color: orange;
+}
+
+
+.commentField .UsernameDateMessageImg .MessageToTweet .CanModifyMessage .DeleteBtn{
+    background-color: red;
+}
+
+
+.commentField .UsernameDateMessageImg .MessageToTweet .CanModifyMessage .publishBtnEnabled:hover{
+    cursor: pointer;
+ }
+
+.commentField .UsernameDateMessageImg .MessageToTweet .CanModifyMessage .Cancel:hover{
+    cursor: pointer;
+}
+
+.commentField .UsernameDateMessageImg .MessageToTweet .CanModifyMessage .DeleteBtn:hover{
+    cursor: pointer;
+}
+
+
+.commentField .UsernameDateMessageImg .MessageToTweet p{   
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.commentField .UsernameDateMessageImg .ImageToPublish{
+    padding-right: 10px;
+}
+
+.commentField .UsernameDateMessageImg .ImageToPublish img{
+    border-radius: 5px;
+    width : 80vh;
+    height: auto;
+}

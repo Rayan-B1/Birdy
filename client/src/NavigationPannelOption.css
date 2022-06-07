@@ -1,0 +1,35 @@
+
+.NavigationPannelOp{
+  
+    cursor: pointer;
+    display:inline-block;
+    padding :0.2em 1em 0.2em 1em;
+    
+    
+    
+    
+
+}
+
+.NavigationPannelOp img{
+    width : 32px;
+    height: 32px;
+    display:inline-block;
+}
+
+.NavigationPannelOp p{
+    margin-left: 20px;
+    margin-top: 3px;
+    font-size: 20px;
+    display:inline-block;
+
+}
+
+.NavigationPannelOp:hover{
+    
+    background-color:#E1E8ED;
+    background-size: inherit;
+    border-radius: 50px;
+    font-weight: bold;
+    
+}
